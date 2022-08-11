@@ -1,7 +1,5 @@
 # `giffy-django` 
-
-## Description
-A django implementation of the `giffy` with `sqlite` database and local file storage.
+A `Django` implementation of the `giffy` with `sqlite` database and local file storage.
 The full guide to this project can be found (here)[TODO add link]
 
 ## Installing dependencies and project set up
