@@ -1,0 +1,19 @@
+{% load static %}
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>Giffy</title>
+  <link rel="stylesheet" href="https://cdn.simplecss.org/simple.min.css">
+  <link rel="stylesheet" type="text/css" href="{% static 'giffy_app/styles.css' %}">
+</head>
+
+<body>
+  <!-- Added header.html -->
+  {% include 'giffy_app/header.html' %}
+
+  {% block content %}
+  {% endblock content %}
+</body>
+
+</html>
